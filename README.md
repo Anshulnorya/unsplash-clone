@@ -22,5 +22,5 @@ React Masonry CSS
 ## Credits
 This app was created by Anshul.
 
-License
+## License
 This project is licensed under anshulkumar0786@gmail.com.
