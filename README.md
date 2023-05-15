@@ -1,26 +1,31 @@
-# Image Search React App
-This React app allows users to search for images based on a keyword entered in an input box. It uses the Unsplash API to fetch images and display them in a gallery.
 
-## Installation
-Clone the repository: git clone https://github.com/your-username/image-search-react-app.git
-Navigate to the project directory: cd image-search-react-app
+# React Image Search App
+This is a simple React app that allows users to search for images related to a specific keyword.
+
+# Getting Started
+
+React Image Search App
+This is a simple React app that allows users to search for images related to a specific keyword.
+To run this app locally, you'll need to have Node.js installed on your computer.
+
+Clone this repository: git clone https://github.com/your-username/your-repo-name.git
+Change into the project directory: cd your-repo-name
 Install dependencies: npm install
 ## Usage
 Rename .env.example to .env and replace the REACT_APP_API_KEY with your own Unsplash API key. If you don't have an API key, you can create one here.
 Start the development server: npm start
-Open http://localhost:3000 in your browser.
-## Features
-Users can enter a keyword to search for images.
-The app displays a gallery of images fetched from the Unsplash API.
-The gallery is responsive and adjusts to different screen sizes.
-## Dependencies
-This app uses the following dependencies:
+Open your browser and navigate to http://localhost:3000 to see the app in action.
+Usage
+To use the app, simply type a keyword into the search bar and press enter. The app will then fetch images related to that keyword from the Unsplash API and display them in a grid format.
 
-React
-Axios
-React Masonry CSS
-## Credits
-This app was created by Anshul.
+# Technologies Used
+This app was built using the following technologies:
+HTML
+CSS
+JAVASCRIPT
+REACT JS
+# Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. You can also open an issue if you encounter any bugs or have suggestions for improvements.
 
-## License
-This project is licensed under anshulkumar0786@gmail.com.
+# License
+This project is licensed under the anshukumar0786@gmail.com
