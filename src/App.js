@@ -1,9 +1,13 @@
 import { useState } from "react";
 import "./App.css";
-
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
 
 // tCYofdmqqB5LJObTUkItA76Q0lpiDrZb8yeapaTKJQM
+Fancybox.bind('[data-fancybox="gallery"]', {
+  //
+});
 function App() {
   const [value, setValue] = useState(" ");
   const [results, setResults] = useState([]);
@@ -18,26 +22,27 @@ function App() {
   };
   return (
     <div className="App">
+    <h1 style={{color:"rgb(181, 122, 230)"}}>Search Images</h1>
       <div className="mydiv">
-        <span>Search</span>
         <input
           type="text"
           value={value}
           onChange={(e) => setValue(e.target.value)}
-          style={{ width: "60%" }}
         ></input>
-        <button onClick={fetchImage}>Send</button>
+        <button onClick={fetchImage}>Search</button>
       </div>
-      <div className="gallery">
-      {results.map((item) => (
-   
-          <img className="item" src={item.urls.regular} key={item.id}alt={item.alt_description} />
+      <div className="grid grid-cols-3 gap-4 max-w-xl mx-auto p-10">
+        {results.map((item) => (
+
+          <a data-fancybox="gallery" href={item.urls.regular}>
+            <img class="rounded" src={item.urls.regular}    key={item.id}
+            alt={item.alt_description} />
+          </a>
      
-      ))}
-    </div>
+        ))}
+      </div>
     </div>
   );
 }
 
 export default App;
-  

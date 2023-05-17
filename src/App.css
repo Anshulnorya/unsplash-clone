@@ -1,10 +1,13 @@
 *{
   font-family: 'Courier New', Courier, monospace;
   /* color: rgb(181, 122, 230); */
-  font-size: 20px;
+  /* font-size: 20px; */
+
 }
 .App {
+  
   text-align: center;
+ 
   
 }
 .mydiv{
@@ -14,14 +17,27 @@
   padding: 1rem;
   box-shadow: 1px 1px 10px rgb(181, 122, 230);
   /* background-color: rgba(54, 45, 45, 0.863); */
+  background-color: aliceblue;
+  border: none;
   
 }
-.gallery{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.mydiv input{
+  border: 1px solid  rgb(181, 122, 230);;
+  border-radius: 10px ;
+  padding: 10px;
+  width: 70%;
 }
-.item{
-  width: 30%;
-  margin: 10px;
+button{
+  background-color:rgba(181, 122, 230, 0.763);;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+}
+.rounded{
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+
 }
