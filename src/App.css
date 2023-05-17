@@ -34,6 +34,7 @@ button{
   font-size: 20px;
   border-radius: 10px;
   color: white;
+  cursor: pointer;
 }
 .rounded{
   height: 300px;
